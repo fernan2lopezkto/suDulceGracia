@@ -13,7 +13,7 @@ function App() {
   <Home />
   <Especialidad />
   <Footer />
-  </>;
-}
+  </> 
+  ;}
 
 export default App;
