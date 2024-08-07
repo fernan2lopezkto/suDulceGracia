@@ -36,12 +36,12 @@ function Home() {
           </Grid>
           <Grid item xs={12}>
             <Typography variant="h6" component="p" textAlign="center">
-              A El Rincón del Sabor
+              A Su Dulce Gracia
             </Typography>
           </Grid>
           <Grid item xs={12}>
             <Typography variant="p" component="p" textAlign="center">
-            Un lugar donde la pasión por la gastronomía se encuentra con el mejor servicio. Desde [año de fundación], hemos sido el destino favorito para los amantes de la buena comida, ofreciendo una experiencia culinaria inolvidable en un ambiente acogedor
+            Donde cada bocado es una delicia. Desde [año de fundación], nos dedicamos a crear pasteles y postres que no solo deleitan el paladar, sino que también tocan el corazón. Nuestra pasión por la repostería se refleja en cada una de nuestras creaciones.
             </Typography>
           </Grid>
         </Grid>
