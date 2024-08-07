@@ -50,7 +50,10 @@ function Especialidad() {
       <Grid container justifyContent="center" alignItems='center' spacing={4} mb={4}>
         <Grid item xs={12}>
           <Typography variant="h4" component="h3" textAlign="center" mb={2} mt={4}>
-            Especialidades de la Casa
+            Los más pedidos
+          </Typography>
+          <Typography variant="P" >
+            Nuestros clientes adoran nuestros productos estrella como la Tarta de Chocolate, el Cheesecake de Frutos Rojos y nuestros Macarons. Cada uno de estos postres es elaborado con ingredientes de la más alta calidad y un toque de amor que los hace únicos
           </Typography>
         </Grid>
         {especialidades.map((esp, index) => {
