@@ -53,7 +53,7 @@ function ResponsiveAppBar() {
               textDecoration: "none",
             }}
           >
-            El Rincón del Sabor
+            Su Dulce Gracia
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
@@ -118,7 +118,7 @@ function ResponsiveAppBar() {
               textDecoration: "none",
             }}
           >
-            Sabor
+            Su Dulce Gracia
           </Typography>
           <Box
             sx={{

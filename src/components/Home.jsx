@@ -28,15 +28,15 @@ function Home() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 2 }}>
-        <Grid container justifyContent="center" alignItems='center' spacing={4} >
+        <Grid container justifyContent="center" alignItems='center' spacing={2} >
           <Grid item xs={12}>
-            <Typography variant="h2" component="h1" textAlign="center">
-              Bienbenidos
+            <Typography variant="h6" component="p" textAlign="center">
+              Bienbenidos a
             </Typography>
           </Grid>
           <Grid item xs={12}>
-            <Typography variant="h6" component="p" textAlign="center">
-              A Su Dulce Gracia
+            <Typography variant="h2" component="h1" textAlign="center">
+              Su Dulce Gracia
             </Typography>
           </Grid>
           <Grid item xs={12}>
