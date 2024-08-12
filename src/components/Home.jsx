@@ -4,7 +4,7 @@ import { Container, Typography, Grid } from "@mui/material"
 import { motion } from 'framer-motion';
 
 //import bgImage from '../assets/bg1.webp';
-import fondo from '../assets/img/fondos/fondoPastelNacional.jpg';
+import fondo from '../assets/mid/midfondo5.png';
 
 function Home() {
 
@@ -18,7 +18,7 @@ function Home() {
 <div style={{ backgroundColor: 'rgba(200, 240, 200, 0.5)' }}>
     <Container 
     sx={{
-      minHeight: '60vh',
+      minHeight: '90vh',
       display: 'flex',
       justifyContent: 'center',
       alignItems: 'center',

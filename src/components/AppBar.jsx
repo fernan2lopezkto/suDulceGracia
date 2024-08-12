@@ -14,7 +14,8 @@ import logoPrincipal from "/logo.jpg";
 
 const pages = [
   { name: "Especialidad", id: "especialidad" },
-  { name: "Restaurant", id: "restaurant" },
+  { name: "Servicios", id: "servicios"},
+  //  { name: "Restaurant", id: "restaurant" },
   //  { name: 'Servicios', id: 'servicios' },
   { name: "Contacto", id: "contacto" },
 ];

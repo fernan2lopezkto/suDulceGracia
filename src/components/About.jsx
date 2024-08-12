@@ -4,7 +4,7 @@ import { Container, Typography, Grid } from "@mui/material"
 import { motion } from 'framer-motion';
 
 //import bgImage from '../assets/bg1.webp';
-import fondo from '../assets/img/fondos/fondo1.webp';
+import fondo from '../assets/mid/midfondo3.png';
 
 function About() {
 
@@ -51,4 +51,4 @@ function About() {
     </div>
   )
 }
-export default About
+export default About;
