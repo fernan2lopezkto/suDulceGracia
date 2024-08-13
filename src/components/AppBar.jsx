@@ -10,7 +10,7 @@ import Container from "@mui/material/Container";
 import Button from "@mui/material/Button";
 import MenuItem from "@mui/material/MenuItem";
 
-import logoPrincipal from "/logo.jpg";
+//import logoPrincipal from "/logo.jpg";
 
 const pages = [
   { name: "Especialidad", id: "especialidad" },
@@ -35,9 +35,9 @@ function ResponsiveAppBar() {
     <AppBar position="static">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          <Box sx={{ display: { xs: "none", md: "flex" }, height: 30, mr: 1 }}>
+          {/* <Box sx={{ display: { xs: "none", md: "flex" }, height: 30, mr: 1 }}>
             <img src={logoPrincipal} className="logo" alt="Vite logo" />
-          </Box>
+          </Box> */}
           <Typography
             variant="h6"
             noWrap
@@ -52,6 +52,7 @@ function ResponsiveAppBar() {
               letterSpacing: ".01rem",
               color: "inherit",
               textDecoration: "none",
+              //fontFamily: 'Grey Qo, Arial, sans-serif'
             }}
           >
             Su Dulce Gracia
@@ -100,9 +101,9 @@ function ResponsiveAppBar() {
               ))}
             </Menu>
           </Box>
-          <Box sx={{ display: { xs: "flex", md: "none" }, height: 30, mr: 1 }}>
+          {/* <Box sx={{ display: { xs: "flex", md: "none" }, height: 30, mr: 1 }}>
             <img src={logoPrincipal} className="logo" alt="Vite logo" />
-          </Box>
+          </Box> */}
           <Typography
             variant="h5"
             noWrap
@@ -132,7 +133,7 @@ function ResponsiveAppBar() {
               <Button
                 key={page.name}
                 onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: "inherit", display: "block" }}
+                sx={{ my: 2, color: "inherit", display: "block", fontFamily: 'Mooli, Arial, sans-serif' }}
                 href={`#${page.id}`}
               >
                 {page.name}

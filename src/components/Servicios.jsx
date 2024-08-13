@@ -24,7 +24,7 @@ function Servicios() {
           <img src={serv1} alt="servicio foto" style={{ maxWidth: "100%" }} />
         </Grid>
         <Grid item xs={12} sm={6} md={8}>
-          <Typography variant="p">
+          <Typography variant="body2"  color="text.secondary">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero
             doloremque ullam, beatae placeat ratione alias possimus soluta
             veniam consectetur mollitia maiores corporis, quam distinctio ad

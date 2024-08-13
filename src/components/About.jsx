@@ -1,54 +1,65 @@
-import { Container, Typography, Grid } from "@mui/material"
+import { Container, Typography, Grid } from "@mui/material";
 
-
-import { motion } from 'framer-motion';
+import { motion } from "framer-motion";
 
 //import bgImage from '../assets/bg1.webp';
-import fondo from '../assets/mid/midfondo3.png';
+import fondo from "../assets/mid/midfondo3.png";
 
 function About() {
-
   return (
-<div style={{ 
-      backgroundImage:  `url(${fondo})`,
-      backgroundRepeat: 'no-repeat',
-      backgroundSize: 'cover',
-      backgroundColor: '#222444'
-    }}>
-<div style={{ backgroundColor: 'rgba(200, 240, 200, 0.5)' }}>
-    <Container 
-    sx={{
-      minHeight: '50vh',
-      display: 'flex',
-      justifyContent: 'center',
-      alignItems: 'center',
-      //backgroundColor: 'rgba(200,200,200,0.8)'
-    }} >
-<motion.div
+    <div
+      style={{
+        backgroundImage: `url(${fondo})`,
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "cover",
+        backgroundColor: "#222444",
+      }}
+    >
+      <div style={{ backgroundColor: "rgba(200, 240, 200, 0.5)" }}>
+        <Container
+          sx={{
+            minHeight: "50vh",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            //backgroundColor: 'rgba(200,200,200,0.8)'
+          }}
+        >
+          <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ duration: 2 }}>
-        <Grid container justifyContent="center" alignItems='center' spacing={4} >
-          <Grid item xs={12}>
-            <Typography variant="h2" component="h1" textAlign="center">
-              Bienbenidos
-            </Typography>
-          </Grid>
-          <Grid item xs={12}>
-            <Typography variant="h6" component="p" textAlign="center">
-              A El Rincón del Sabor
-            </Typography>
-          </Grid>
-          <Grid item xs={12}>
-            <Typography variant="p" component="p" textAlign="center">
-            Un lugar donde la pasión por la gastronomía se encuentra con el mejor servicio. Desde [año de fundación], hemos sido el destino favorito para los amantes de la buena comida, ofreciendo una experiencia culinaria inolvidable en un ambiente acogedor
-            </Typography>
-          </Grid>
-        </Grid>
-        </motion.div>
-    </Container>
+            transition={{ duration: 2 }}
+          >
+            <Grid
+              container
+              justifyContent="center"
+              alignItems="center"
+              spacing={4}
+            >
+              <Grid item xs={12}>
+                <Typography variant="h2" component="h1" textAlign="center">
+                  Su Dulce Gracia
+                </Typography>
+              </Grid>
+              <Grid item xs={12}>
+                <Typography variant="h6" component="p" textAlign="center">
+                  
+                </Typography>
+              </Grid>
+              <Grid item xs={12}>
+                <Typography variant="p" component="p" textAlign="center">
+                  Un lugar donde la pasión por la gastronomía se encuentra con
+                  el mejor servicio. Desde [año de fundación], hemos sido el
+                  destino favorito para los amantes de la buena comida,
+                  ofreciendo una experiencia culinaria inolvidable en un
+                  ambiente acogedor
+                </Typography>
+              </Grid>
+            </Grid>
+          </motion.div>
+        </Container>
+      </div>
     </div>
-    </div>
-  )
+  );
 }
 export default About;
