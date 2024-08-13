@@ -11,9 +11,14 @@ import PreguntasFrecuentes from "./components/PreguntasFrecuentes";
 import Servicios from "./components/Servicios";
 import About from "./components/About";
 
+import { ThemeProvider } from
+import theme from './theme';  // Importa el tema
+
+
 function App() {
   return (
-    <>
+    
+      <ThemeProvider theme={theme}>
       <ResponsiveAppBar />
       <Home />
       <Especialidad />
@@ -22,7 +27,8 @@ function App() {
       <About />
       <Contact />
       <Footer />
-    </>
+        </ThemeProvider>
+    
   );
 }
 
