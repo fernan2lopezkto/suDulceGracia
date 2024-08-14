@@ -1,16 +1,15 @@
 
 
 const clientData = {
-  companyName: "Nombre de la Empresa",
-  address: "Dirección de la Empresa",
-  phone: "Número de Teléfono",
-  email: "Correo Electrónico",
-  website: "Sitio Web",
-  description: "Breve descripción de la empresa",
-  services: [
-    "Servicio 1",
-    "Servicio 2",
-    "Servicio 3"
+  companyName: "Dulce Inspiración",
+  address: "Ruta 8 km26.500, Barros Blancos, Canelones",
+  phone: "092834535",
+  email: "4code.uy@gmail.com",
+  website: "https://linktr.ee/4Code.uy",
+  eslogan: "Dulce Inspiración. Donde cada sabor cuenta una historia.",
+  rubros: [
+    "Pasteleria",
+    "Decoración de eventos"
   ],
   socialMedia: {
     facebook: "URL de Facebook",
@@ -18,8 +17,8 @@ const clientData = {
     instagram: "URL de Instagram"
   },
   logo: "URL del logo de la empresa",
-  openingHours: {
-    monday: "9:00 AM - 5:00 PM",
+  Horario: {
+    Lunes: "9:00 AM - 5:00 PM",
     tuesday: "9:00 AM - 5:00 PM",
     wednesday: "9:00 AM - 5:00 PM",
     thursday: "9:00 AM - 5:00 PM",
