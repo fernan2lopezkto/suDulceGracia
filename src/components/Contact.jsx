@@ -53,21 +53,21 @@ function Contact() {
               color="primary"
               target="_top"
               rel="noopener noreferrer"
-              href={`mailto:4code.uy@gmail.com`}
+              href={`mailto:sudulcegraciaweb@gmail.com`}
             >
-              <Typography>4code.uy@gmail.com</Typography>
+              <Typography>sudulcegraciaweb@gmail.com</Typography>
             </Button>
           </Box>
         </Grid>
         <Grid item xs={12} sm={6} md={4}>
-          <Box
+          {/* <Box
             justifyContent="center"
             sx={{ display: { xs: "flex" }, height: 200, mr: 1 }}
           >
             <img src={logoPrincipal} className="logo" alt="Vite logo" />
-          </Box>
-          <Typography variant="h6" component="p" textAlign="center">
-            El Rincón del Sabor
+          </Box> */}
+          <Typography variant="h2" component="p" textAlign="center" >
+            Su Dulce Gracia
           </Typography>
         </Grid>
         <Grid item xs={12} sm={6} md={4} textAlign="center">

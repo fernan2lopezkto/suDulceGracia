@@ -14,7 +14,7 @@ import MenuItem from "@mui/material/MenuItem";
 
 const pages = [
   { name: "Especialidad", id: "especialidad" },
-  { name: "Servicios", id: "servicios"},
+  { name: "Servicios", id: "servicios" },
   //  { name: "Restaurant", id: "restaurant" },
   //  { name: 'Servicios', id: 'servicios' },
   { name: "Contacto", id: "contacto" },
@@ -39,7 +39,7 @@ function ResponsiveAppBar() {
             <img src={logoPrincipal} className="logo" alt="Vite logo" />
           </Box> */}
           <Typography
-            variant="h6"
+            variant="h4"
             noWrap
             component="a"
             href="#"
@@ -47,8 +47,8 @@ function ResponsiveAppBar() {
               mr: 2,
               display: { xs: "none", md: "flex" },
               flexGrow: 1,
-              fontFamily: "monospace",
-              fontWeight: 700,
+              fontFamily: "Grey Qo, Arial, sans-serif",
+              //fontWeight: 100,
               letterSpacing: ".01rem",
               color: "inherit",
               textDecoration: "none",
@@ -105,7 +105,7 @@ function ResponsiveAppBar() {
             <img src={logoPrincipal} className="logo" alt="Vite logo" />
           </Box> */}
           <Typography
-            variant="h5"
+            variant="h4"
             noWrap
             component="a"
             href="#"
@@ -113,7 +113,7 @@ function ResponsiveAppBar() {
               mr: 2,
               display: { xs: "flex", md: "none" },
               flexGrow: 1,
-              fontFamily: "monospace",
+              fontFamily: "Grey Qo, Arial, sans-serif",
               fontWeight: 700,
               letterSpacing: ".3rem",
               color: "inherit",
@@ -133,7 +133,12 @@ function ResponsiveAppBar() {
               <Button
                 key={page.name}
                 onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: "inherit", display: "block", fontFamily: 'Mooli, Arial, sans-serif' }}
+                sx={{
+                  my: 2,
+                  color: "inherit",
+                  display: "block",
+                  fontFamily: "Mooli, Arial, sans-serif",
+                }}
                 href={`#${page.id}`}
               >
                 {page.name}

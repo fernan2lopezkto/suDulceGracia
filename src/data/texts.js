@@ -12,22 +12,22 @@ const texts = {
   
   especialidadesList: [
     {
-      name: "Feliz Dia!!",
-      description: "Este plato nacional de Perú vive un momento de mucha fama en la actualidad, luego de destacarse en diferentes ferias gastronómicas realizadas en distintas partes del mundo. El ceviche peruano se prepara con pescado o mariscos crudos, cebolla, chile, jugo de limón y sal. Puede ir acompañado de camote, choclo, cancha serrana o chifles.",
+      name: "Tarta de Chocolate Extravaganza",
+      description: "Nuestra Tarta de Chocolate Extravaganza es un deleite para los amantes del chocolate. Capas de esponjoso bizcocho de chocolate negro se intercalan con un cremoso relleno de ganache de chocolate belga. La cobertura de ganache y las virutas de chocolate artesanal hacen de esta tarta una experiencia irresistiblemente rica y decadente.",
       precio: "$1200",
-      img: "/suDulceGracia/esp/esp1.webp"
+      img: "/suDulceGracia/esp/TartadeChocolateExtravaganza.png"
     },
     {
-      name: "Paella",
-      description: "La paella es un clásico de España que ha sabido ganarse el aprecio internacional. Originaria de Valencia, debe su nombre a la gigante “paellera” dónde se cocina. Se trata de un buen plato de arroz y mariscos, condimentado con azafrán y hierbas verdes. Como siempre, hay muchas versiones y se hace también con pollo, cerdo o, simplemente, vegetales.",
+      name: "Cheesecake de Frutos Rojos",
+      description: "Este cheesecake es una combinación perfecta de suavidad y frescura. La base de galleta crujiente sostiene una capa de cremoso queso mascarpone, que se equilibra con una vibrante salsa de frutos rojos. Decorado con fresas, frambuesas y arándanos frescos, es el postre ideal para quienes buscan un toque de dulzura y acidez.",
       precio: "$740",
-      img: "/suDulceGracia/esp/esp2.webp"
+      img: "/suDulceGracia/esp/CheesecakedeFrutosRojos.png"
     },
     {
-      name: "Chocolate!!",
-      description: "Su exquisitez y practicidad les han permitido a los burritos consagrarse como otra de las comidas más populares del universo. Autóctono de México, contiene algunos de los ingredientes más representativos de su país: una tortilla tradicional, a la que se le agrega un relleno -generalmente carne, pollo y maíz- y luego se la enrolla para formar el famoso burrito.",
+      name: "Macarons de Pistacho y Frambuesa",
+      description: "Nuestros macarons de pistacho y frambuesa son un verdadero placer para el paladar. Estos delicados bocados franceses combinan la sutil dulzura del pistacho con la acidez de la frambuesa en una textura suave y crujiente. Perfectos para acompañar un café o como un regalo elegante.",
       precio: "$780",
-      img: "/suDulceGracia/esp/esp3.jpg"
+      img: "/suDulceGracia/esp/MacaronsdePistachoyFrambuesa.png"
     }
   ],
 
