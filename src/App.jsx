@@ -13,18 +13,15 @@ import About from "./components/About";
 
 import { ThemeProvider } from "@mui/material/styles";
 import theme from "./theme"; // Importa el tema
-import Bubbles from "./components/Bubles";
-import "./bbleStyle.css"
 
 function App() {
   return (
     <ThemeProvider theme={theme}>
-
       <ResponsiveAppBar />
       <Home />
       <Especialidad />
-      <Servicios />
       <PreguntasFrecuentes />
+      <Servicios />
       <About />
       <Contact />
       <Footer />

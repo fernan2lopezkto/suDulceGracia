@@ -69,7 +69,14 @@ const texts = {
       pregunta: "¿Puedo encontrar sus productos en otros puntos de venta?",
       respuesta: "Sí, además de nuestra tienda, también puedes encontrar algunos de nuestros productos en cafeterías seleccionadas en [Ciudad/Zona]. Consulta nuestras redes sociales para conocer los puntos de venta actualizados."
     }
-  ]
+  ],
+
+  // Textos del componente About
+  aboutTitle: "Sobre Nosotros",
+  aboutp1: "En Su Dulce Gracia, la pasión por la repostería y la creatividad se combinan para crear experiencias dulces únicas e inolvidables. Fundados con la visión de ofrecer algo más que simples postres, nos dedicamos a crear obras de arte comestibles que celebran los momentos más especiales de la vida.",
+  aboutp2: "Cada uno de nuestros productos está hecho a mano con los ingredientes más frescos y de la más alta calidad. Creemos que cada detalle cuenta, desde el primer bocadito hasta la presentación final. Ya sea una torta personalizada para una boda, cupcakes decorados para un cumpleaños o una mesa de dulces para un evento corporativo, nuestro objetivo es superar las expectativas y llenar de dulzura cada celebración.",
+  aboutp3: "Más allá de la repostería, ofrecemos un servicio integral de decoración de eventos. Nos apasiona transformar tus ideas en realidad, cuidando cada aspecto para que tu evento sea tan especial como lo imaginaste. Desde la decoración temática hasta los pequeños detalles que marcan la diferencia, estamos aquí para hacer que tu ocasión sea verdaderamente única.",
+  aboutp4: "En Su Dulce Gracia, nos enorgullece formar parte de tus momentos más importantes, aportando no solo sabor, sino también estilo y elegancia a cada evento. Nos encanta lo que hacemos, y eso se refleja en cada creación que sale de nuestra cocina."
 };
 
 export default texts;

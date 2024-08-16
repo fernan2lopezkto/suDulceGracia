@@ -16,7 +16,7 @@ function Contact() {
       id="contacto"
       maxWidth={false}
       sx={{
-        minHeight: "10vh",
+        minHeight: "60vh",
         //backgroundColor: theme.palette.primary.main,
         display: "flex",
         justifyContent: "center",
@@ -66,7 +66,7 @@ function Contact() {
           >
             <img src={logoPrincipal} className="logo" alt="Vite logo" />
           </Box> */}
-          <Typography variant="h2" component="p" textAlign="center" >
+          <Typography variant="h2" component="p" textAlign="center">
             Su Dulce Gracia
           </Typography>
         </Grid>
