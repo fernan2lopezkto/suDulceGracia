@@ -13,7 +13,7 @@ function Home() {
         backgroundColor: "#222444",
       }}
     >
-      <div style={{ backgroundColor: "rgba(200, 240, 200, 0.5)" }}>
+      <div style={{ backgroundColor: "rgba(200, 240, 200, 0.7)" }}>
         <Container
           sx={{
             minHeight: "90vh",

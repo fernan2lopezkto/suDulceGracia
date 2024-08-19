@@ -2,6 +2,7 @@ import { Container, Typography, Grid, Box, Button } from "@mui/material";
 
 import { IconButton } from "@mui/material";
 import Instagram from "@mui/icons-material/Instagram";
+import { WhatsApp } from "@mui/icons-material";
 
 import useTheme from "@mui/material/styles/useTheme";
 
@@ -16,7 +17,7 @@ function Contact() {
       id="contacto"
       maxWidth={false}
       sx={{
-        minHeight: "60vh",
+        minHeight: "40vh",
         //backgroundColor: theme.palette.primary.main,
         display: "flex",
         justifyContent: "center",
@@ -28,7 +29,8 @@ function Contact() {
         justifyContent="center"
         alignItems="center"
         spacing={6}
-        pt={6}
+        pt={2}
+        pb={6}
       >
         <Grid item xs={12} sm={6} md={4} sx={{ textAlign: "center" }}>
           <Typography variant="h4" mt={2}>
@@ -45,7 +47,19 @@ function Contact() {
                 sx={{ display: { xs: "flex" }, fontSize: 50, mr: 1 }}
               />
             </IconButton>
+            <IconButton
+              onClick={(event) =>
+                (window.location.href =
+                  "https://wa.me/59896974438?text=Hola,%2C%20prueba%20web")
+              }
+            >
+              <WhatsApp
+                sx={{ display: { xs: "flex" }, fontSize: 50, mr: 1 }}
+              />
+            </IconButton>
           </Box>
+          {/* <Box sx={{ display: "flex", justifyContent: "center", gap: 2 }}>
+          </Box> */}
           <Box sx={{ display: "flex", justifyContent: "center", gap: 2 }}>
             <Button
               variant="contained"

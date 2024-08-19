@@ -18,7 +18,6 @@ function Footer() {
         <Box>
           <Fab variant="extended" onClick={handleClick}>
             <NavigationIcon />
-            Navigate
           </Fab>
         </Box>
       </Toolbar>

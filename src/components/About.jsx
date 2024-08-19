@@ -24,7 +24,7 @@ function About() {
         backgroundColor: "#222444",
       }}
     >
-      <div style={{ backgroundColor: "rgba(200, 240, 200, 0.5)" }}>
+      <div style={{ backgroundColor: "rgba(200, 240, 200, 0.7)" }}>
         <Container
           sx={{
             minHeight: "80vh",
@@ -38,7 +38,7 @@ function About() {
             ref={ref}
             initial={animations["fadeIn"].initial}
             animate={inView ? animations["fadeIn"].animate : animations["fadeIn"].initial}
-            transition={{ duration: 5 }}
+            transition={{ duration: 3 }}
           >
             <Grid
               container

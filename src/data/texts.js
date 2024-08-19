@@ -76,7 +76,17 @@ const texts = {
   aboutp1: "En Su Dulce Gracia, la pasión por la repostería y la creatividad se combinan para crear experiencias dulces únicas e inolvidables. Fundados con la visión de ofrecer algo más que simples postres, nos dedicamos a crear obras de arte comestibles que celebran los momentos más especiales de la vida.",
   aboutp2: "Cada uno de nuestros productos está hecho a mano con los ingredientes más frescos y de la más alta calidad. Creemos que cada detalle cuenta, desde el primer bocadito hasta la presentación final. Ya sea una torta personalizada para una boda, cupcakes decorados para un cumpleaños o una mesa de dulces para un evento corporativo, nuestro objetivo es superar las expectativas y llenar de dulzura cada celebración.",
   aboutp3: "Más allá de la repostería, ofrecemos un servicio integral de decoración de eventos. Nos apasiona transformar tus ideas en realidad, cuidando cada aspecto para que tu evento sea tan especial como lo imaginaste. Desde la decoración temática hasta los pequeños detalles que marcan la diferencia, estamos aquí para hacer que tu ocasión sea verdaderamente única.",
-  aboutp4: "En Su Dulce Gracia, nos enorgullece formar parte de tus momentos más importantes, aportando no solo sabor, sino también estilo y elegancia a cada evento. Nos encanta lo que hacemos, y eso se refleja en cada creación que sale de nuestra cocina."
+  aboutp4: "En Su Dulce Gracia, nos enorgullece formar parte de tus momentos más importantes, aportando no solo sabor, sino también estilo y elegancia a cada evento. Nos encanta lo que hacemos, y eso se refleja en cada creación que sale de nuestra cocina.",
+
+  // textos del componente servicios
+  serviciosTitle: "Servicio de Decoración para Eventos",
+  serviciosList: [
+    {name: "",
+      p1: "En Su Dulce Gracia, no solo nos especializamos en crear postres deliciosos, sino que también llevamos el arte de la repostería alsiguiente nivel con nuestro servicio de decoración para eventos.Ya sea que estés celebrando un cumpleaños, una boda, unaniversario o cualquier ocasión especial, nuestro equipo deexpertos en decoración transformará tu evento en una experienciainolvidable.",
+      p2: "Nos encargamos de cada detalle, desde la decoración temática de la mesa de postres hasta la personalización de tortas y cupcakes, todo diseñado para armonizar con la estética y el tema de tu celebración. Además, ofrecemos opciones de dulces decorativos, arreglos florales comestibles y mesas de dulces que son tan hermosas como deliciosas.",
+      p3: "Permítenos convertir tu evento en una obra de arte dulce, donde cada elemento refleja tu estilo y personalidad. En Su Dulce Gracia, creemos que la decoración es tan importante como el sabor, y nos dedicamos a hacer que tus momentos más especiales sean aún más memorables."
+    }
+  ]
 };
 
 export default texts;

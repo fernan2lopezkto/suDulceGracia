@@ -7,7 +7,7 @@ import texts from '../data/texts';
 function PreguntasFrecuentes() {
   return (
     <Container>
-      <Typography variant="h4" textAlign="center" marginBottom={4}>
+      <Typography variant="h4" textAlign="center" mt={4} marginBottom={4}>
         {texts.preguntasFrecuentesTitle}
       </Typography>
       <Grid container justifyContent="center" spacing={2}>

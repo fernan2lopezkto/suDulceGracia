@@ -18,7 +18,7 @@ export default function AccordionTransition({preg}) {
 };
 
 return (
-    <div>
+    
       <Accordion
         expanded={expanded}
         onChange={handleExpansion}
@@ -42,6 +42,6 @@ return (
           </Typography>
         </AccordionDetails>
       </Accordion>
-    </div>
+    
   );
 }
