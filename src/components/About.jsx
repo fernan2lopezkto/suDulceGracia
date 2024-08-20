@@ -5,6 +5,7 @@ import { useInView } from 'react-intersection-observer';
 
 import fondo from "../assets/mid/midfondo3.png";
 import texts from "../data/texts";
+import clientData from "../data/clientData"
 
 
 function About() {
@@ -48,7 +49,7 @@ function About() {
             >
               <Grid item xs={12}>
                 <Typography variant="h2" component="h1" textAlign="center">
-                  Su Dulce Gracia
+                  {clientData.companyName}
                 </Typography>
               </Grid>
               <Grid item xs={12}>

@@ -1,10 +1,10 @@
 
 
 const clientData = {
-  companyName: "Dulce Inspiración",
+  companyName: "Su Dulce Gracia",
   address: "Ruta 8 km26.500, Barros Blancos, Canelones",
   phone: "092834535",
-  email: "4code.uy@gmail.com",
+  email: "sudulcegraciaweb@gmail.com",
   website: "https://linktr.ee/4Code.uy",
   eslogan: "Dulce Inspiración. Donde cada sabor cuenta una historia.",
   rubros: [
@@ -14,7 +14,7 @@ const clientData = {
   socialMedia: {
     facebook: "URL de Facebook",
     twitter: "URL de Twitter",
-    instagram: "URL de Instagram"
+    instagram: "https://www.instagram.com/sudulcegracia2024/"
   },
   logo: "URL del logo de la empresa",
   Horario: {

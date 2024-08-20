@@ -10,6 +10,8 @@ import Container from "@mui/material/Container";
 import Button from "@mui/material/Button";
 import MenuItem from "@mui/material/MenuItem";
 
+import clientData from "../data/clientData"
+
 //import logoPrincipal from "/logo.jpg";
 
 const pages = [
@@ -55,7 +57,7 @@ function ResponsiveAppBar() {
               //fontFamily: 'Grey Qo, Arial, sans-serif'
             }}
           >
-            Su Dulce Gracia
+            {clientData.companyName}
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
@@ -120,7 +122,7 @@ function ResponsiveAppBar() {
               textDecoration: "none",
             }}
           >
-            Su Dulce Gracia
+            {clientData.companyName}
           </Typography>
           <Box
             sx={{

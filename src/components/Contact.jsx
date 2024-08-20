@@ -8,6 +8,8 @@ import useTheme from "@mui/material/styles/useTheme";
 
 import logoPrincipal from "/logo.jpg";
 
+import clientData from "../data/clientData"
+
 function Contact() {
   const theme = useTheme();
 
@@ -69,7 +71,7 @@ function Contact() {
               rel="noopener noreferrer"
               href={`mailto:sudulcegraciaweb@gmail.com`}
             >
-              <Typography>sudulcegraciaweb@gmail.com</Typography>
+              <Typography>{clientData.email}</Typography>
             </Button>
           </Box>
         </Grid>
@@ -81,7 +83,7 @@ function Contact() {
             <img src={logoPrincipal} className="logo" alt="Vite logo" />
           </Box> */}
           <Typography variant="h2" component="p" textAlign="center">
-            Su Dulce Gracia
+            {clientData.companyName}
           </Typography>
         </Grid>
         <Grid item xs={12} sm={6} md={4} textAlign="center">
@@ -89,7 +91,7 @@ function Contact() {
             Ubicacion
           </Typography>
           <Typography variant="p" textAlign="center">
-            Barros Blancos, Canelones, Uruguay
+            {clientData.address}
           </Typography>
         </Grid>
       </Grid>
