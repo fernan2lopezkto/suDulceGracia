@@ -10,7 +10,7 @@ import Container from "@mui/material/Container";
 import Button from "@mui/material/Button";
 import MenuItem from "@mui/material/MenuItem";
 
-import clientData from "../data/clientData"
+import clientData from "../data/clientData";
 
 //import logoPrincipal from "/logo.jpg";
 
@@ -87,6 +87,16 @@ function ResponsiveAppBar() {
               onClose={handleCloseNavMenu}
               sx={{
                 display: { xs: "block", md: "none" },
+                "& .MuiPaper-root": {
+                  width: "100vw", // Ocupa todo el ancho de la pantalla
+                  height: "100vh", // Ocupa toda la altura de la pantalla
+                  left: 0, // Alinea el menú al borde izquierdo
+                  top: 0, // Alinea el menú al borde superior
+                  display: "flex", // Usa flexbox para alinear los elementos
+                  flexDirection: "column", // Alinea los elementos en una columna
+                  justifyContent: "center", // Centra los elementos verticalmente
+                  alignItems: "center", // Centra los elementos horizontalmente
+                },
               }}
             >
               {pages.map((page) => (
@@ -96,6 +106,7 @@ function ResponsiveAppBar() {
                     color="inherit"
                     href={`#${page.id}`}
                     textAlign="center"
+                    sx={{ width: "100%" }} // Asegura que cada elemento ocupe el 100% del menú
                   >
                     {page.name}
                   </Typography>

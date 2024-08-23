@@ -4,7 +4,7 @@ const texts = {
   // Textos del componente Home.jsx
   welcomeMessage: "Bienvenidos a",
   title: "Su Dulce Gracia",
-  description: "Donde cada bocado es una delicia. Desde [año de fundación], nos dedicamos a crear pasteles y postres que no solo deleitan el paladar, sino que también tocan el corazón. Nuestra pasión por la repostería se refleja en cada una de nuestras creaciones.",
+  description: "Donde cada bocado es una delicia. Desde hace mas dos años, nos dedicamos a crear pasteles y postres que no solo deleitan el paladar, sino que también tocan el corazón. Nuestra pasión por la repostería, arraigada en la fe y en el amor por la familia, se refleja en cada una de nuestras creaciones.",
 
   // Textos del componente Especialidad.jsx
   especialidadesTitle: "Los más pedidos",
@@ -73,10 +73,10 @@ const texts = {
 
   // Textos del componente About
   aboutTitle: "Sobre Nosotros",
-  aboutp1: "En Su Dulce Gracia, la pasión por la repostería y la creatividad se combinan para crear experiencias dulces únicas e inolvidables. Fundados con la visión de ofrecer algo más que simples postres, nos dedicamos a crear obras de arte comestibles que celebran los momentos más especiales de la vida.",
-  aboutp2: "Cada uno de nuestros productos está hecho a mano con los ingredientes más frescos y de la más alta calidad. Creemos que cada detalle cuenta, desde el primer bocadito hasta la presentación final. Ya sea una torta personalizada para una boda, cupcakes decorados para un cumpleaños o una mesa de dulces para un evento corporativo, nuestro objetivo es superar las expectativas y llenar de dulzura cada celebración.",
-  aboutp3: "Más allá de la repostería, ofrecemos un servicio integral de decoración de eventos. Nos apasiona transformar tus ideas en realidad, cuidando cada aspecto para que tu evento sea tan especial como lo imaginaste. Desde la decoración temática hasta los pequeños detalles que marcan la diferencia, estamos aquí para hacer que tu ocasión sea verdaderamente única.",
-  aboutp4: "En Su Dulce Gracia, nos enorgullece formar parte de tus momentos más importantes, aportando no solo sabor, sino también estilo y elegancia a cada evento. Nos encanta lo que hacemos, y eso se refleja en cada creación que sale de nuestra cocina.",
+  aboutp1: "En Su Dulce Gracia, la pasión por la repostería y la creatividad se combinan para crear experiencias dulces únicas e inolvidables. Desde niña, ya demostraba habilidades en la decoración. Hace dos años, ese anhelo se concretó con el nacimiento de Su Dulce Gracia, un proyecto que me permitió emprender desde casa sin descuidar a mis tres hijas. Este emprendimiento familiar, conformado por Jorge Alpuin, Tania Lepra, Luciana Alpuin y Virginia Paglia, quien les habla, nació con la visión de ofrecer algo más que simples postres, dedicándome a crear obras de arte comestibles que celebran los momentos más especiales de la vida.",
+  aboutp2: "Cada uno de nuestros productos está hecho a mano con los ingredientes más frescos y de la más alta calidad. Creemos que cada detalle cuenta, desde el primer bocadito hasta la presentación final. En Su Dulce Gracia, buscamos no solo que nuestros productos sean agradables al paladar, sino también que sean apetitosos a la vista, logrando así que nuestros clientes queden satisfechos y nos vuelvan a elegir. Además, ofrecemos un servicio integral de decoración de eventos, transformando tus ideas en realidad y cuidando cada aspecto para que tu evento sea tan especial como lo imaginaste.",
+  aboutp3: "El nombre Su Dulce Gracia surgió en el corazón de mi esposo, inspirado en su fe y en la convicción de que la Gracia de Dios ha estado presente en todo momento, acompañándonos y guiándonos. Esta creencia se refleja en el amor y la dedicación que ponemos en cada una de nuestras creaciones, recordándoles que todo debe ser hecho con amor y gratitud. Su Dulce Gracia se caracteriza por ser un equipo familiar que comparte no solo el trabajo, sino también los valores de amor, respeto y unidad.",
+  aboutp4: "A futuro, deseamos expandirnos y crecer en conocimientos, pero sobre todo, dejar un legado familiar. Soñamos con poder brindar fuentes de trabajo a otras personas y ser vistos como un ejemplo de superación, demostrando que cada persona tiene las cualidades necesarias para emprender y crecer. En Su Dulce Gracia, nos enorgullece formar parte de tus momentos más importantes, aportando no solo sabor, sino también estilo y elegancia a cada evento.",
 
   // textos del componente servicios
   serviciosTitle: "Servicio de Decoración para Eventos",
