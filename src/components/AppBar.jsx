@@ -10,6 +10,9 @@ import Container from "@mui/material/Container";
 import Button from "@mui/material/Button";
 import MenuItem from "@mui/material/MenuItem";
 
+import Instagram from "@mui/icons-material/Instagram";
+import { WhatsApp } from "@mui/icons-material";
+
 import clientData from "../data/clientData";
 
 //import logoPrincipal from "/logo.jpg";
@@ -112,6 +115,28 @@ function ResponsiveAppBar() {
                   </Typography>
                 </MenuItem>
               ))}
+              <Box sx={{ display: "flex", justifyContent: "center", gap: 2 }}>
+            <IconButton
+              onClick={(event) =>
+                (window.location.href =
+                  "https://www.instagram.com/sudulcegracia2024/")
+              }
+            >
+              <Instagram
+                sx={{ display: { xs: "flex" }, fontSize: 50, mr: 1 }}
+              />
+            </IconButton>
+            <IconButton
+              onClick={(event) =>
+                (window.location.href =
+                  "https://wa.me/59896974438?text=Hola,%2C%20prueba%20web")
+              }
+            >
+              <WhatsApp
+                sx={{ display: { xs: "flex" }, fontSize: 50, mr: 1 }}
+              />
+            </IconButton>
+          </Box>
             </Menu>
           </Box>
           {/* <Box sx={{ display: { xs: "flex", md: "none" }, height: 30, mr: 1 }}>

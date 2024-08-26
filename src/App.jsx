@@ -12,7 +12,7 @@ import Servicios from "./components/Servicios";
 import About from "./components/About";
 
 import { ThemeProvider } from "@mui/material/styles";
-import theme from "./theme"; // Importa el tema
+import theme from "./themes/theme"; // Importa el tema
 
 function App() {
   return (
