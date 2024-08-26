@@ -4,7 +4,7 @@ const texts = {
   // Textos del componente Home.jsx
   welcomeMessage: "Bienvenidos a",
   title: "Su Dulce Gracia",
-  description: "Donde cada bocado es una delicia. Desde hace mas dos años, nos dedicamos a crear pasteles y postres que no solo deleitan el paladar, sino que también tocan el corazón. Nuestra pasión por la repostería, arraigada en la fe y en el amor por la familia, se refleja en cada una de nuestras creaciones.",
+  description: "Donde cada bocado es una delicia. Desde hace más de dos años, nos dedicamos a crear pasteles y postres que no solo deleitan el paladar, sino que también tocan el corazón. Nuestra pasión por la repostería, arraigada en la fe y en el amor por Dios y la familia, se refleja en cada una de nuestras creaciones.",
 
   // Textos del componente Especialidad.jsx
   especialidadesTitle: "Los más pedidos",
