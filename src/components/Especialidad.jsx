@@ -1,5 +1,3 @@
-// src/components/Especialidad.jsx
-
 import React from 'react';
 import { useInView } from 'react-intersection-observer';
 import Container from '@mui/material/Container';
@@ -14,21 +12,20 @@ import texts from '../data/texts';
 
 function Especialidad() {
   const theme = useTheme();
-  
-  const animations = {
-    slideIn: { initial: { x: '100%', opacity: 0 }, animate: { x: 0, opacity: 1 } },
-    fadeIn: { initial: { opacity: 0 }, animate: { opacity: 1 } }
-  };
 
   return (
-    <Container maxWidth={false} sx={{
-      minHeight: '100vh',
-      backgroundColor: theme.palette.primary.main,
-      display: 'flex',
-      justifyContent: 'center',
-      alignItems: 'center'
-    }} id="especialidad">
-      <Grid container justifyContent="center" alignItems='center' spacing={4} mb={4}>
+    <Container
+      maxWidth={false}
+      sx={{
+        minHeight: '100vh',
+        backgroundColor: theme.palette.primary.main,
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+      }}
+      id="especialidad"
+    >
+      <Grid container justifyContent="center" alignItems="center" spacing={4} mb={4}>
         <Grid item xs={12}>
           <Typography variant="h4" component="h3" textAlign="center" mb={2} mt={4}>
             {texts.especialidadesTitle}
@@ -40,8 +37,8 @@ function Especialidad() {
         {texts.especialidadesList.map((esp, index) => {
           const { ref, inView } = useInView({ triggerOnce: true });
           return (
-            <Grid item xs={12} sm={6} md={4} key={index} justifyContent="center" alignItems='center' mb={4}>
-              <Card sx={{ maxWidth: 345 }} >
+            <Grid item xs={12} sm={6} md={4} key={index} justifyContent="center" alignItems="center" mb={4}>
+              <Card sx={{ maxWidth: 345 }}>
                 <CardActionArea href="#restaurant">
                   <CardMedia
                     component="img"
@@ -53,7 +50,17 @@ function Especialidad() {
                     <Typography gutterBottom variant="h5" component="div">
                       {esp.name}
                     </Typography>
-                    <Typography variant="body2" color="text.secondary">
+                    {/* Estilos condicionales para ocultar en xs y mostrar en md+ */}
+                    <Typography
+                      variant="body2"
+                      color="text.secondary"
+                      sx={{
+                        display: {
+                          xs: 'none', // Ocultar en pantallas xs
+                          md: 'block', // Mostrar en pantallas md y más grandes
+                        },
+                      }}
+                    >
                       {esp.description}
                     </Typography>
                   </CardContent>

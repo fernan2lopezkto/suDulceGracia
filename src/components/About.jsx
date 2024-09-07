@@ -1,5 +1,4 @@
 import { Container, Typography, Grid } from "@mui/material";
-
 import { motion } from "framer-motion";
 import { useInView } from 'react-intersection-observer';
 
@@ -7,14 +6,14 @@ import fondo from "../assets/mid/midfondo3.png";
 import texts from "../data/texts";
 import clientData from "../data/clientData"
 
-
 function About() {
   
   const { ref, inView } = useInView({ triggerOnce: true });
   
   const animations = {
     slideIn: { initial: { x: '100%' }, animate: { x: 0 } },
-    fadeIn: { initial: { opacity: 0 }, animate: { opacity: 1 } }}
+    fadeIn: { initial: { opacity: 0 }, animate: { opacity: 1 } }
+  };
 
   return (
     <div
@@ -32,7 +31,6 @@ function About() {
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
-            //backgroundColor: 'rgba(200,200,200,0.8)'
           }}
         >
           <motion.div
@@ -44,7 +42,6 @@ function About() {
             <Grid
               container
               justifyContent="center"
-              //alignItems="center"
               spacing={4}
             >
               <Grid item xs={12}>
@@ -60,18 +57,60 @@ function About() {
                 ></Typography>
               </Grid>
               <Grid item xs={12} md={6}>
-                <Typography variant="body1" component="p" mb={2}>
+                <Typography
+                  variant="body1"
+                  component="p"
+                  mb={2}
+                  sx={{
+                    display: {
+                      xs: "block",
+                      sm: "block",
+                      md: "block"
+                    }
+                  }}
+                >
                   {texts.aboutp1}
                 </Typography>
-                <Typography variant="body1" component="p">
+                <Typography
+                  variant="body1"
+                  component="p"
+                  sx={{
+                    display: {
+                      xs: "none",
+                      sm: "block",
+                      md: "block"
+                    }
+                  }}
+                >
                   {texts.aboutp2}
                 </Typography>
               </Grid>
               <Grid item xs={12} md={6}>
-                <Typography variant="body1" component="p" mb={2}>
+                <Typography
+                  variant="body1"
+                  component="p"
+                  mb={2}
+                  sx={{
+                    display: {
+                      xs: "none",
+                      sm: "none",
+                      md: "block"
+                    }
+                  }}
+                >
                   {texts.aboutp3}
                 </Typography>
-                <Typography variant="body1" component="p">
+                <Typography
+                  variant="body1"
+                  component="p"
+                  sx={{
+                    display: {
+                      xs: "none",
+                      sm: "none",
+                      md: "block"
+                    }
+                  }}
+                >
                   {texts.aboutp4}
                 </Typography>
               </Grid>
@@ -82,4 +121,5 @@ function About() {
     </div>
   );
 }
+
 export default About;

@@ -27,14 +27,32 @@ function Servicios() {
           <Grid item xs={12} sm={6} md={4}>
             <img src={serv1} alt="servicio foto" style={{ maxWidth: "100%" }} />
           </Grid>
-          <Grid item xs={12} sm={6} md={8}>
-            <Typography variant="body2" color="text.secondary" mb={4}>
+          <Grid item xs={12} sm={6} md={8} >
+            <Typography variant="body2" color="text.secondary" mb={4} sx={{
+                    display: {
+                      xs: "block",
+                      sm: "block",
+                      md: "block"
+                    }
+                  }}>
               {texts.serviciosList[0].p1}
             </Typography>
-            <Typography variant="body2" color="text.secondary" mb={4}>
+            <Typography variant="body2" color="text.secondary" mb={4} sx={{
+                    display: {
+                      xs: "none",
+                      sm: "block",
+                      md: "block"
+                    }
+                  }}>
               {texts.serviciosList[0].p2}
             </Typography>
-            <Typography variant="body2" color="text.secondary">
+            <Typography variant="body2" color="text.secondary" sx={{
+                    display: {
+                      xs: "none",
+                      sm: "none",
+                      md: "block"
+                    }
+                  }}>
               {texts.serviciosList[0].p3}
             </Typography>
           </Grid>
