@@ -63,11 +63,6 @@ const texts = {
       id: 6,
       pregunta: "¿Dónde están ubicados?",
       respuesta: "Estamos ubicados en [Dirección del Negocio]. Visítanos en nuestra tienda para disfrutar de nuestras delicias recién horneadas."
-    },
-    {
-      id: 7,
-      pregunta: "¿Puedo encontrar sus productos en otros puntos de venta?",
-      respuesta: "Sí, además de nuestra tienda, también puedes encontrar algunos de nuestros productos en cafeterías seleccionadas en [Ciudad/Zona]. Consulta nuestras redes sociales para conocer los puntos de venta actualizados."
     }
   ],
 
