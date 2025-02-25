@@ -13,13 +13,13 @@ const texts = {
   especialidadesList: [
     {
       name: "Momentos Especiales",
-      description: "En Su Dulce Gracia, creemos que cada momento especial merece ser celebrado con un postre a la altura. Nuestra selección de tortas personalizadas, cupcakes decorados y galletas temáticas es perfecta para cumpleaños, aniversarios, bodas y otros eventos importantes. Haz de tu celebración un momento inolvidable con nuestros dulces artesanales.",
+      description: "Creemos que cada momento especial merece ser celebrado con un postre a la altura. Nuestra selección de tortas personalizadas, cupcakes decorados y galletas temáticas es perfecta para cumpleaños, aniversarios, bodas y otros eventos importantes. Haz de tu celebración un momento inolvidable con nuestros dulces artesanales.",
       precio: "$1200",
       img: "/suDulceGracia/esp/momentosEspeciales.png"
     },
     {
-      name: "Cheesecake de Frutos Rojos",
-      description: "Este cheesecake es una combinación perfecta de suavidad y frescura. La base de galleta crujiente sostiene una capa de cremoso queso mascarpone, que se equilibra con una vibrante salsa de frutos rojos. Decorado con fresas, frambuesas y arándanos frescos, es el postre ideal para quienes buscan un toque de dulzura y acidez.",
+      name: "Desayunos Sorpresa",
+      description: "Sorprende a tus seres queridos con un desayuno especial. Nuestros desayunos sorpresa incluyen una selección de panes, muffins, galletas y otras delicias recién horneadas, acompañadas de café, té o jugo. Es el regalo perfecto para celebrar cumpleaños, aniversarios o simplemente para demostrar tu cariño.",
       precio: "$740",
       img: "/suDulceGracia/esp/CheesecakedeFrutosRojos.png"
     },
