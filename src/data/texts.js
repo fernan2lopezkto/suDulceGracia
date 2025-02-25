@@ -12,10 +12,10 @@ const texts = {
   
   especialidadesList: [
     {
-      name: "Tarta de Chocolate Extravaganza",
-      description: "Nuestra Tarta de Chocolate Extravaganza es un deleite para los amantes del chocolate. Capas de esponjoso bizcocho de chocolate negro se intercalan con un cremoso relleno de ganache de chocolate belga. La cobertura de ganache y las virutas de chocolate artesanal hacen de esta tarta una experiencia irresistiblemente rica y decadente.",
+      name: "Momentos Especiales",
+      description: "En Su Dulce Gracia, creemos que cada momento especial merece ser celebrado con un postre a la altura. Nuestra selección de tortas personalizadas, cupcakes decorados y galletas temáticas es perfecta para cumpleaños, aniversarios, bodas y otros eventos importantes. Haz de tu celebración un momento inolvidable con nuestros dulces artesanales.",
       precio: "$1200",
-      img: "/suDulceGracia/esp/TartadeChocolateExtravaganza.png"
+      img: "/suDulceGracia/esp/momentosEspeciales.png"
     },
     {
       name: "Cheesecake de Frutos Rojos",
